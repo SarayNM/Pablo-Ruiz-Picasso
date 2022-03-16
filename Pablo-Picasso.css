@@ -1,0 +1,82 @@
+* {
+  padding: auto;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(194, 190, 190);
+  margin: auto;
+}
+
+h1 {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  color:black;
+  
+}
+
+header { 
+  margin: 20px;
+  background-color: gray;
+  box-sizing: border-box;
+  text-align: center;
+  width: auto;
+  border-radius: 10%;
+}
+
+header img {
+  border-radius: 10%;
+  border: 10px solid rgba(0, 0, 0, 0.294);
+  width: 20%;
+  margin-top: 2rem;
+}
+  
+  
+
+header p {
+  margin: 3rem;
+  text-align: center;
+
+}
+
+
+li::marker {
+    color: darkblue;
+}
+
+
+.imgmain {
+    margin-top:5rem  ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer.nav {
+  display: inline-block;
+    margin-top: 5rem;
+}
+
+
+
+nav:visited {
+    color: cornflowerblue;
+}
+nav:hover {
+    background-color: gray;
+    color: white;
+}
+a:active {
+    color: black;
+}
